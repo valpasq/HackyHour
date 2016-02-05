@@ -1,0 +1,45 @@
+# Hacky Hour Summary​,​ 2016-01-27
+
+## Code Review - Eric
+* Eric presented his Near-Real-Time (NRT) monitoring extension for YATSM, yatsm monitor
+* Focus was on clarifying intent of algorithm
+* Eric is going to “re-base” the code to work on top of current additions to YATSM
+* Consider whether ```yatsm monitor``` will be a combination of modifying results and mapping normalized residuals, or should these be separated, e.g. might want to map residuals for older images, not just new additions
+* Eric & Chris will work on this offline, will present again when ready
+
+
+## Code Literacy (ongoing)
+* Decision to review ```YATSM pixel.py``` in an effort to improve our code literacy
+
+### For next week:
+* Please go to the ```pixel.py code``` on GitHub and do your best to “read” and understand the code, including calls to other functions
+* Come prepared with any that questions Google couldn’t answer
+* Also think about modifications/extensions AND how they would be factored into the code
+
+
+## Documentation (ongoing)
+* Contributions guide now available
+* Went over how to build documentation - Useful for previewing
+* Check out [talk](https://www.youtube.com/watch?v=wf-BqAjZb8M) on best practices for beautiful intelligible code by Raymond Hettinger on YouTube
+
+### For next week:
+* Bring an outline of sections for your documentation
+* Attempt to build documentation as per Chris’s overview
+
+
+## GitHub News
+* Started a shell script repository on GitHub
+* Include examples of shell scripts being run by members of the group - informal, jumping-off points
+* Contributions welcome!
+
+
+## YATSM News
+* YATSM documentation URL was updated. New link here.
+* YATSM now has ~80% test coverage!
+
+
+## Discussion: Terminology paper
+* Discussion of terminology used to describe change detection - structural break vs. event
+* Provide specific examples - Gypsy moths? Wetlands?
+* Possible extensions beyond Landsat - e.g. “event” could describe cholophyll bloom in MERIS time series
+* Potential for a collaborative paper with others doing time series analysis?
